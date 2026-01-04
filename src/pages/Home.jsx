@@ -2,24 +2,19 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import attractions from "../Data/attractions";
 
-// import hero1 from "../assets/images/hero1.jpeg";
-// import hero2 from "../assets/images/hero2.jpeg";
-// import hero3 from "../assets/images/hero3.jpeg";
-// import hero4 from "../assets/images/hero4.jpeg";
-// import hero5 from "../assets/images/hero5.jpeg";
-
-import hero1 from "../public/images/hero1.jpeg";
-import hero2 from "../public/images/hero2.jpeg";
-import hero3 from "../public/images/hero3.jpeg";
-import hero4 from "../public/images/hero4.jpeg";
-import hero5 from "../public/images/hero5.jpeg";
-
-
 
 function Home() {
 
   const navigate = useNavigate();
-  const heroImages = [hero1, hero2, hero3, hero4, hero5 ];
+  const heroImages = [
+  "/images/hero1.jpeg",
+  "/images/hero2.jpeg",
+  "/images/hero3.jpeg",
+  "/images/hero4.jpeg",
+  "/images/hero5.jpeg",
+];
+
+
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {

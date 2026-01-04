@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import attractions from "../Data/attractions";
 
-
 function Home() {
 
   const navigate = useNavigate();
@@ -88,13 +87,13 @@ function Home() {
 
     {/* STATIC FEATURED ITEMS */}
     <div className="featured-card">
-      <img src={hero3} />
+      <img src="/images/hero3.jpeg" />
       <span className="tag">Update</span>
       <h3>Saints & Akhada Camps</h3>
     </div>
 
     <div className="featured-card">
-      <img src={hero2} />
+      <img src="/images/hero2.jpeg" />
       <span className="tag">Update</span>
       <h3>Shahi Snan Dates Announced</h3>
     </div>

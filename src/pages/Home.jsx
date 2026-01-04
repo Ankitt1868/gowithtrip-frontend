@@ -113,42 +113,42 @@ function Home() {
 
         <div className="attractions-grid">
           <div className="attraction-card">
-            <img src="./src/assets/Images/look1.jpg" />
+            <img src="/images/look1.jpg" />
             <div className="attraction-overlay">
               <h3>Shankar Viman Mandapam</h3>
             </div>
           </div>
 
           <div className="attraction-card">
-            <img src="./src/assets/Images/look2.jpg" />
+            <img src="/images/look2.jpg" />
             <div className="attraction-overlay">
               <h3>Akshayavat Temple, Prayagraj</h3>
             </div>
           </div>
 
           <div className="attraction-card">
-            <img src="./src/assets/Images/look3.jpg" />
+            <img src="/images/look3.jpg" />
             <div className="attraction-overlay">
               <h3>Bade Hanuman Ji Mandir</h3>
             </div>
           </div>
 
           <div className="attraction-card">
-            <img src="./src/assets/Images/look4.webp" />
+            <img src="/images/look4.webp" />
             <div className="attraction-overlay">
               <h3>Famous Ghats of Prayagraj</h3>
             </div>
           </div>
 
           <div className="attraction-card">
-            <img src="./src/assets/Images/look5.jpg" />
+            <img src="/images/look5.jpg" />
             <div className="attraction-overlay">
               <h3>Bharadwaj Ashram</h3>
             </div>
           </div>
 
           <div className="attraction-card">
-            <img src="./src/assets/Images/look6.jpg" />
+            <img src="/images/look6.jpg" />
             <div className="attraction-overlay">
               <h3>Ganga Aarti, Prayagraj</h3>
             </div>
@@ -171,7 +171,7 @@ function Home() {
 
           {/* CARD 1 */}
           <div className="experience-card">
-            <img src="./src/assets/Images/e-card1.jpeg" />
+            <img src="/images/e-card1.jpeg" />
             <div className="exp-meta">
               <span>🕒 4 H</span>
               <span>📍 Triveni Sangam</span>
@@ -189,7 +189,7 @@ function Home() {
 
           {/* CARD 2 */}
           <div className="experience-card">
-            <img src="./src/assets/Images/e-card2.jpg" />
+            <img src="/images/e-card2.jpg" />
             <div className="exp-meta">
               <span>🕒 8 H</span>
               <span>📍 Triveni Sangam</span>
@@ -207,7 +207,7 @@ function Home() {
 
           {/* CARD 3 */}
           <div className="experience-card">
-            <img src="./src/assets/Images/e-card3.webp" />
+            <img src="/images/e-card3.webp" />
             <div className="exp-meta">
               <span>🕒 3 H</span>
               <span>📍 Triveni Sangam</span>
@@ -225,7 +225,7 @@ function Home() {
 
           {/* CARD 4 */}
           <div className="experience-card">
-            <img src="./src/assets/Images/e-card4.jpeg" />
+            <img src="/images/e-card4.jpeg" />
             <div className="exp-meta">
               <span>🕒 2 H</span>
               <span>📍 Prayag Sangam</span>
